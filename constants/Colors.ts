@@ -1,19 +1,20 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
+// constants/Colors.ts
 
-export default {
+const Colors = {
   light: {
-    text: '#000',
-    background: '#fff',
-    tint: tintColorLight,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorLight,
+    text: '#000000',
+    background: '#ffffff',
+    tint: '#2f95dc',
+    tabIconDefault: '#cccccc',
+    tabIconSelected: '#2f95dc',
   },
   dark: {
-    text: '#fff',
-    background: '#000',
-    tint: tintColorDark,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorDark,
+    text: '#ffffff',
+    background: '#000000',
+    tint: '#ffffff',
+    tabIconDefault: '#cccccc',
+    tabIconSelected: '#ffffff',
   },
 };
+
+export default Colors;
