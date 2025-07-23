@@ -36,11 +36,11 @@ const CriarApostaModal = ({ visible, onClose }: Props) => {
     };
 
     return (
-        <Modal visible={visible} animationType='slide'> 
+        <Modal visible={visible} animationType='fade'> 
             <View style={{padding: 20}}>
                 <Text>Criar nova aposta</Text>
                 <TextInput placeholder='Jogador 1' value={jogador1} onChangeText={setJogador1}/>
-                <TextInput placeholder='Jogador 2' value={jogador1} onChangeText={setJogador2}/>
+                <TextInput placeholder='Jogador 2' value={jogador2} onChangeText={setJogador2}/>
                 <TextInput 
                     placeholder='% ADM (ex: 10)'
                     value={porcentagemAdm}
